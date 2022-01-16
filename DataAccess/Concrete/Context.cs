@@ -12,7 +12,7 @@ namespace DataAccess.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=LAPTOP-2K2NHRHM\\SQLEXPRESS;database=CoreBlogDb; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=MESUTPC;database=CoreBlogDb; integrated security=true;");
 
         }
 
